@@ -23,3 +23,11 @@ GET  /catalog                           dostupni brendovi i kategorije
 POST /recommend                         query-to-product preporuke
 GET  /products/similar/{product_id}     item-to-item preporuke
 ```
+
+## Pokretanje Streamlit interfejsa
+
+Pokrenuti iz /src sa:
+
+```powershell
+streamlit run frontend.py
+```
